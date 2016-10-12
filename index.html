@@ -13,7 +13,7 @@
 </head>
 <body>
 	<img src="images/logo.jpg" class="logo" alt="Analog Sea Logo">
-	<form class="signup-form" action="/some-servier-endpoint" method='post'>
+	<form class="signup-form" action="/signup/" method='post'>
 		<legend class="legend">Sign up</legend>
 		<label for="email">Email</label>
 		<input placeholder="foo@bar.com" type="text" name="email" id="email">
@@ -22,11 +22,11 @@
 
 		<button type="submit">Sign up</button>
 
-		<p><a class="password_forgot" href="#">Forgot password?</a></p>
+		<p><a class="password_forgot" href="/forgot-password/new">Forgot password?</a></p>
 	</form>
 
 	<div class="footer">
-		<p class="current_account">Already have an account? <span><a href="#" class="log_in">Log in</a></span></p>
+		<p class="current_account">Already have an account? <span><a href="/login" class="log_in">Log in</a></span></p>
 	</div>
 </body>
 </html>
