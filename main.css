@@ -1,0 +1,89 @@
+body {
+	background-color: DodgerBlue;
+	font-family: 'Roboto', helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-top: 60px;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+.logo {
+	display: block;
+	height: 35px;
+	width: auto;
+	margin: 0 auto 30px;
+}
+
+.signup-form {
+	background-color: white;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+}
+
+.legend {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 30px;
+	font-weight: 200;
+	color: silver;
+}
+
+input {
+	width: 320px;
+	padding: 15px;
+	border: 2px solid silver;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: block;
+	font-size: 18px;
+}
+
+button {
+	background-color: #15CD72;
+	color: white;
+	width: 320px;
+	height: 55px;
+	padding: 15px;
+	border: 0;
+	cursor: pointer;
+	margin-bottom: 10px;
+	display: block;
+	font-size: 18px;
+}
+
+button:hover {
+	background-color: #0CB863;
+	-webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+}
+
+.signup-form p{
+	text-align: center;
+	margin: 0;
+}
+
+.password_forgot{
+	color: silver;
+	font-size: 12px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.current_account{
+	color: white;
+	font-weight: 100px;
+}
+
+.log_in {
+	color: white;
+	font-weight: 100px;
+}
